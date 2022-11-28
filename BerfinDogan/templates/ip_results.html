@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}
+        <title>Berfin Dogan</title>
+{% endblock %}
+
+{% block body %}
+    <br><br><br><br><br><br>
+    <h2 style="text-align:center; color:red">Ip Logger Results</h2>
+    <hr>
+    <div class="jumbotron" style=" border:3px;border-style:inset; background-color:#2C1F1C;">
+        <br><br><br>
+		
+        <h5 style="text-align:center; color:green; color:#E1E77F">{{ city }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Ip Address {{ results1 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">State {{ results2 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Country {{ results3 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Country Code {{ results4 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Coords1 {{ results5 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Coords2 {{ results6 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">ISP {{ results7 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Name {{ results8 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Timezone {{ results9 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Post Code {{ results10 }}</h4>
+        <h5 style="text-align:center; color:green; color:#E1E77F">Google Maps {{ results11 }}</h4>
+        <hr style="width:100%; background-color:#75183D;">
+
+	{% endblock %}
+    </div>
